@@ -42,17 +42,23 @@ Alternatively some scripts have been included to streamline this process, these 
 #### OUTPUT: values provided by the c++ program to the simulator
 
 * best particle values used for calculating the error evaluation
+
 ["best_particle_x"]
+
 ["best_particle_y"]
+
 ["best_particle_theta"]
 
 * Optional message data used for debugging particle's sensing and associations
 
 * for respective (x,y) sensed positions ID label
+
 ["best_particle_associations"]
 
 * for respective (x,y) sensed positions
+
 ["best_particle_sense_x"] <= list of sensed x positions
+
 ["best_particle_sense_y"] <= list of sensed y positions
 
 
